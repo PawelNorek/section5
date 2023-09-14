@@ -1,0 +1,10 @@
+1. Create server.js
+2. pnpm init
+   That will create package.json
+3. Create .gitignore and place there at least /node_modules
+4. Then:
+   pnpm install socket.io
+   pnpm install express
+   pnpm install nodemon
+5. Add following in package.json - "scripts" section
+   "agar": "nodemon AGARCLONE/server.mjs"
