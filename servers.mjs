@@ -21,3 +21,8 @@ io.on('connection', socket => {
 })
 
 httpServer.listen(3001)
+
+//App organization
+//servers.mjs is not the entry point. It creates servers and exports them.
+
+export { app, io, httpServer }
