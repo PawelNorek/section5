@@ -2,10 +2,10 @@
 	"name": "section5",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "index.mjs",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"agar": "nodemon servers.mjs"
+		"agar": "nodemon index.mjs"
 	},
 	"keywords": [],
 	"author": "",
