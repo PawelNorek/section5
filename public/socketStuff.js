@@ -1,6 +1,11 @@
 const socket = io.connect('http://192.168.1.191:3001')
 
 const init = async () => {
+	/**
+	 * Initializes the game by sending an initialization request to the server and setting up a periodic update of the player's movement vector.
+	 *
+	 * @returns {void}
+	 */
 	const initData = await socket.emitWithAck('init', {
 		playerName: player.name,
 	})
