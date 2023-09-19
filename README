@@ -8,3 +8,7 @@
    pnpm install nodemon
 5. Add following in package.json - "scripts" section
    "agar": "nodemon AGARCLONE/server.mjs"
+
+Point 5 changed to:
+   "agar": "nodemon index.mjs"
+in final version.
